@@ -1,0 +1,65 @@
+html {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+#card {
+  border: 2px solid gray;
+  padding: 50px;
+}
+
+.img-cards {
+  display: flex;
+}
+
+.img-card {
+  opacity: 0.4;
+}
+
+.img-card:nth-child(n+1) {
+  margin-left: 5px;
+}
+
+#input {
+  border-width: 2px;
+  width: 250px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-left: 5px;
+}
+
+#button-validate {
+  width: 110px;
+  height: 30px;
+  background-color: rgb(125, 209, 125);
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#button-validate:hover {
+  background-color: rgb(90, 168, 90);
+  border: 1px solid green;
+  cursor: pointer;
+}
+
+.valid {
+  border-color: green;
+}
+
+.invalid {
+  border-color: red;
+}
